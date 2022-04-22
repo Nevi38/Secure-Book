@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Book</title>
+    <link rel="icon" href="../asset/img/icon-website.png">
+    <link rel="stylesheet" href="../asset/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../asset/css/modal.css">
+    <link rel="stylesheet" href="../asset/css/reuse/section.css">
+    <link rel="stylesheet" href="../asset/css/profile.css">
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <div id="header__inner">
+                <a href="home.html" id="home">
+                    <img class="header__img" src="../asset/img/svg/logo-02.svg" alt="logo-header">
+                    <span class="header__title font-bold ml-15">SECURE BOOK</span>
+                </a>
+                <div id="center">
+                    <input class="header__search" type="text" placeholder="Find whatever you want...">
+                </div>
+                <div class="nav_profile">
+                    <div class="nav_profile--btn-create js-btn-create-post">
+                        <i class="fa-solid fa-square-plus"></i>
+                        <p>Create</p>
+                    </div>
+                    <a href="#"><img class="avatar" src="../asset/img/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="wrap">
+
+            <!-- Default-->
+            <div class="default">
+
+                <!--Cover Photo-->
+                <div class="image">
+                    <div class="cover_img">
+                        <a href="https://i.ytimg.com/vi/vAGUCpJUmv8/hqdefault.jpg"><img src="../asset/img/cover-img.png" alt="Cover Photo"></a>
+                    </div>
+                </div>
+
+                <!--Avatar-->
+                <div class="profile-details">
+                    <div class="pd-left">
+                        <div class="pd-row">
+                            <img src="../asset/img/user.png" class="avatar-person" alt="">
+                            <div>
+                                <h3>Nguyễn Thị Thanh Hằng</h3>
+                                <p>291 Friends - 20 mutual</p>
+                                <img src="../asset/img/contact/erik.jpg" alt="">
+                                <img src="../asset/img/contact/ducphuc.jpg" alt="">
+                                <img src="../asset/img/contact/giatuyen.jpg" alt="">
+                                <img src="../asset/img/contact/huongluli.jpg" alt="">
+                                <img src="../asset/img/contact/buianhtuan.jpg" alt="">
+                                <img src="../asset/img/contact/cutegirl.jpg" alt="">
+                                <img src="../asset/img/contact/leeminhhoo.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pd-right">
+
+                        <button type="button"><img src="../asset/img/add-fr-icon.jpg" alt="">Friend</button></button>
+                        <button type="button"><img src="../asset/img/mes-icon.jpg" alt="">Message</button>
+
+                    </div>
+                </div>
+
+                <div class="hrhrhr">
+                    <hr style="width: 980px; margin: 0 auto;">
+                </div>
+
+                <!--Navigation Menu-->
+                <div class="nav-menu">
+                    <div class="nav-menu-list">
+                        <a href="./profile.html"><button class="nav-menu-item">Posts</button></a>
+                        <button class="nav-menu-item">About</button>
+                        <button class="nav-menu-item">Friends</button>
+                        <a href="./photo.html"><button class="nav-menu-item">Photos</button></a>
+                        <a href="./video.html"><button class="nav-menu-item">Videos</button></a>
+                        <button class="nav-menu-item">Charts</button>                        
+                        <button class="nav-menu-item">More</button>
+                    </div>
+                    <div class="nav-menu-list">
+                        <button class="nav-menu-item">...</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Content Social-->
+            <div class="content" style="margin-top:17px">
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="text__type--comment-input placeholder js-btn-create-post" id="data-story">What's on your mind, Thanh Hằng?</div>
+                    </div>
+                    <div class="upload__function">
+                        <ul class="upload__function--list">
+                            <li class="upload__function--list-item">
+                                <i class="fa-solid fa-video red"></i>
+                                <span>Live video</span>
+                            </li>
+                            <li class="upload__function--list-item">
+                                <i class="fa-solid fa-image green"></i>
+                                <span>Photo/Video</span>
+                            </li>
+                            <li class="upload__function--list-item">
+                                <i class="fa-solid fa-face-laugh-beam tomato"></i>
+                                <span>Feeling/Activity</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="upload__btn">
+                        <div class="btn btn-pink js-btn-create-post" id="post">Post</div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Nguyễn Thị Thanh Hằng</p>
+                            <span class="upload__textbox--sub">10 April at 18:39 · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            #Thiên_Quan_Tứ_Phúc  <br>
+                            #Trailer_SS2
+                        </div>
+                        <div class="upload__content--video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0THbkOpEq9E" style="display: block; margin: 0 auto;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Nguyễn Thị Thanh Hằng</p>
+                            <span class="upload__textbox--sub">4 April at 18:39 · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            #Thiên_Quan_Tứ_Phúc  <br>
+                            #Độc_Thoại
+                        </div>
+                        <div class="upload__content--video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3e0jEq-qBAs" style="display: block; margin: 0 auto;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Nguyễn Thị Thanh Hằng</p>
+                            <span class="upload__textbox--sub">25 March at 13:10 · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            Thân tại vô gián, lòng tại đào nguyên.
+                        </div>
+                        <a href="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.6435-9/107800326_136311771446541_1130291312577835234_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=v5vxuJP3GxcAX-USUQk&_nc_ht=scontent.fsgn2-3.fna&oh=00_AT9itTVc64hdnAwoOQeB5UJU-wYE-OqHL9al18-TGZwN4Q&oe=627E79E7"><img class="upload__content--image" src="../asset/img/images/TL.jpg" id="" alt=""></a>
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Nguyễn Thị Thanh Hằng</p>
+                            <span class="upload__textbox--sub">12 March at 20:08 · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            Tằng kinh thương hải nan vi thuỷ, <br>
+                            Trừ khước Vu Sơn bất thị vân.     <br>
+                            Thủ thứ hoa tùng lãn hồi cố,      <br>
+                            Bán duyên tu đạo, bán duyên quân.
+                        </div>
+                        <a href="https://i.pinimg.com/originals/ff/30/36/ff30369ef83c1a2d219f8de96162d5d9.jpg"><img class="upload__content--image" src="../asset/img/images/TQTP.jpg" id="" alt=""></a>
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="create-post" id="js-create-post">
+            <div class="create-post__container">
+                <div class="create-post__container--header">
+                    <div class="create-post__container--header-title">Create Post</div>
+                    <span class="modal__header-close right-22" id="js-close-create-post"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="create-post__container--body">
+                    <div class="box__info">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="upload__textbox--info">
+                            <p class="box__info--name">Nguyễn Thị Thanh Hằng</p>
+                            <div class="mod__privacy mode__privacy--public"><i class="fa-solid fa-earth-americas"></i><span class="mod__privacy--title">Công khai</span></div>
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <div class="box__content--area">
+                            <textarea class="box__content--story" id="story" type="text" placeholder="What's on your mind, Thanh Hằng?"></textarea>
+                            <div class="box__content-img" id="area-image">
+                                <img class="upload__content--image" id="idDisplay" src="" alt="">
+                                <span class="modal__header-close corner-top-right hidden" id="close"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="box__content--add-btn">
+                            <div class="box__content--title">Thêm vào bài viết</div>
+                            <div class="emotion">
+                                <div class="emotion__icon emotion__icon--type-img">
+                                    <input type="file" class="input-upload" id="image">
+                                    <label for="image"><i class="fa-solid fa-image"></i></label>
+                                </div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                        <div class="btn btn-pink btn-medium" id="create-post">Post</div>
+                    </div>
+                </div>
+                <div class="create-post__container--footer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

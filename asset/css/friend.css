@@ -1,0 +1,124 @@
+
+.friend {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.friend-container {
+    margin: 25px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.friend-details, .friend-request, .friend-find{
+    margin: 0 20px;
+    border-radius: 13px;
+    font-size: 19px;
+    list-style: none;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-left: 40px;
+    position: inherit;
+    margin-top: 15px;
+}
+
+.friend-details a {
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    height: 39px;
+}
+
+.friend-request, .friend-find {
+    color: #1876f2;
+    font-style: italic;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.header__search {
+    max-width: 200px;
+}
+
+.friend-container-menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.friend-menu-item {
+    color: #77797c;
+    margin: 5px 20px;
+    border-radius: 13px;
+    font-size: 19px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 7px;
+}
+
+.friend-menu-item:hover {
+    color: #1876f2;
+    background-color: #e4e6eb;
+    opacity: 0.7;
+}
+
+/*
+.friend-row {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}*/
+
+.friend-row {
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.friend-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border-left: 8px solid #1876f2;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 80%);
+    width: 470px;
+    height: 140px;
+}
+
+.row-2 {
+    flex-basis: 245px;
+}
+
+.row-2 h4 {
+    font-size: 18px;
+}
+
+.row-2 p {
+    font-size: 15px;
+}
+
+.avat-person {
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+

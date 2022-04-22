@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Music</title>
+    <link rel="stylesheet" href="../asset/css/music-player.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="app">
+        <!-- Left -->
+        <div id="left">
+                <h1 class="logo">Secure Music</h1>
+                <div class="sidebar">
+                    <ul class="navbar">
+                        <span class="title">Browse Music</span>
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Discover</a></li>
+                        <li><a href="#"><i class="fa-solid fa-headphones"></i>Songs</a></li>
+                        <li><a href="#"><i class="fa-solid fa-record-vinyl"></i>Albums</a></li>
+                        <li><a href="#"><i class="fa-solid fa-user"></i>Artists</a></li>
+                        <li><a href="#"><i class="fa-solid fa-compact-disc"></i>Music Video</a></li>
+                        <li><a href="#"><i class="fa-solid fa-microphone"></i>Radio</a></li>
+                    </ul>
+                    <ul class="navbar">
+                        <span class="title">Your Music</span>
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Discover</a></li>
+                        <li><a href="#"><i class="fa-solid fa-headphones"></i>Songs</a></li>
+                        <li><a href="#"><i class="fa-solid fa-record-vinyl"></i>Albums</a></li>
+                        <li><a href="#"><i class="fa-solid fa-user"></i>Artists</a></li>
+                        <li><a href="#"><i class="fa-solid fa-compact-disc"></i>Music Video</a></li>
+                        <li><a href="#"><i class="fa-solid fa-microphone"></i>Radio</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+        <!-- Right -->
+        <div id="right">
+            <div id="header">
+                <div id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" id="" placeholder="Search Song, Album or Singer" spellcheck="false">
+                </div>
+                
+                <div class="profile">
+                    <img class="avatar" src="https://nguoinoitieng.tv/images/nnt/100/0/be05.jpg" alt="">
+                    <div>
+                        <p class="profile-name">Cẩm Hường</p>
+                        <p class="type">Premium</p>
+                    </div>
+                    <div class="pop-up"><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="wrap">
+                    <div>
+                        <h2>Recomended Albums</h2>
+                        <div class="btn">
+                            <span class="previous"><i class="fa-solid fa-angle-left"></i></span>
+                            <span class="next"><i class="fa-solid fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="albums">
+                        <div class="album">
+                            <span class="btn-play"><i class="fa-solid fa-circle-play"></i></span>
+                            <img class="theme-song" src="../asset/img/honcayeu.jpg" alt="">
+                            <p class="title">Đức Phúc</p>
+                            <p class="number-song">12 Songs</p>
+                        </div>
+                        <div class="album">
+                            <span class="btn-play"><i class="fa-solid fa-circle-play"></i></span>
+                            <img class="theme-song" src="../asset/img/album-01.jpg" alt="">
+                            <p class="title">Thiều Bảo Trâm</p>
+                            <p class="number-song">15 Songs</p>
+                        </div>
+                        <div class="album">
+                            <span class="btn-play"><i class="fa-solid fa-circle-play"></i></span>
+                            <img class="theme-song" src="../asset/img/album-02.jpg" alt="">
+                            <p class="title">Alan Walker</p>
+                            <p class="number-song">10 Songs</p>
+                        </div>
+                        <div class="album">
+                            <span class="btn-play"><i class="fa-solid fa-circle-play"></i></span>
+                            <img class="theme-song" src="../asset/img/album-03.jpg" alt="">
+                            <p class="title">Kai Đinh</p>
+                            <p class="number-song">7 Songs</p>
+                        </div>
+                        <div class="album">
+                            <span class="btn-play"><i class="fa-solid fa-circle-play"></i></span>
+                            <img class="theme-song" src="../asset/img/album-04.jpg" alt="">
+                            <p class="title">Lou Hoàng</p>
+                            <p class="number-song">7 Songs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layout-37 mtb-45">
+                    <div class="layout-7">
+                        <div>
+                            <h2>Tops Songs</h2>
+                            <div>
+                                <span class="active">Today</span>
+                                <span>Week</span>
+                                <span>Month</span>
+                            </div>
+                        </div>
+                        <div class="playlists">    
+                            <div class="song">
+                                <span class="number">#</span>
+                                <span class="name-song">Track / Artist</span>
+                                <span class="group-album">Album</span>
+                                <span class="time">Time</span>
+                                <span class="play-click">Plays</span>
+                                <span class="favourite">Add</span>
+                            </div>
+                            <div class="song">
+                                <spa class="btn btn-play"><i class="fa-solid fa-play"></i></spa>
+                                <span class="number">01</span>
+                                <span class="name-song">
+                                    <img src="../asset/img/honcayeu.jpg" alt="">
+                                    <div>
+                                        <p>Đừng Nói Tôi Điên</p>
+                                        <p class="author">Hiền Hồ</p>
+                                    </div>
+                                </span>
+                                <span class="group-album">Live Version 1900</span>
+                                <span class="time">4:22</span>
+                                <span class="play-click">142,921</span>
+                                <span class="favourite love"><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <div class="song">
+                                <spa class="btn btn-play"><i class="fa-solid fa-play"></i></spa>
+                                <span class="number">02</span>
+                                <span class="name-song">
+                                    <img src="../asset/img/honcayeu.jpg" alt="">
+                                    <div>
+                                        <p>Người Ấy</p>
+                                        <p class="author">No Name</p>
+                                    </div>
+                                </span>
+                                <span class="group-album">Những bản tình ca</span>
+                                <span class="time">5:30</span>
+                                <span class="play-click">35,276</span>
+                                <span class="favourite"><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <div class="song">
+                                <spa class="btn btn-play"><i class="fa-solid fa-play"></i></spa>
+                                <span class="number">03</span>
+                                <span class="name-song">
+                                    <img src="../asset/img/honcayeu.jpg" alt="">
+                                    <div>
+                                        <p>Người Ấy</p>
+                                        <p class="author">No Name</p>
+                                    </div>
+                                </span>
+                                <span class="group-album">Những bản tình ca</span>
+                                <span class="time">5:30</span>
+                                <span class="play-click">35,276</span>
+                                <span class="favourite"><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                            <div class="song">
+                                <spa class="btn btn-play"><i class="fa-solid fa-play"></i></spa>
+                                <span class="number">04</span>
+                                <span class="name-song">
+                                    <img src="../asset/img/honcayeu.jpg" alt="">
+                                    <div>
+                                        <p>Người Ấy</p>
+                                        <p class="author">No Name</p>
+                                    </div>
+                                </span>
+                                <span class="group-album">Những bản tình ca</span>
+                                <span class="time">5:30</span>
+                                <span class="play-click">35,276</span>
+                                <span class="favourite"><i class="fa-solid fa-heart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-3">
+                        <div>
+                            <h2>Trendinng Music Videos</h2>
+                            <div class="btn">
+                                <span class="previous"><i class="fa-solid fa-angle-left"></i></span>
+                                <span class="next"><i class="fa-solid fa-angle-right"></i></span>
+                            </div>
+                        </div>
+                        <iframe class="theme-video" height="315" src="https://www.youtube.com/embed/1jx-BcAu5i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="player-music">
+            <div class="name-song">
+                <img id="disc" src="../asset/img/dungnoitoidien.png" alt="">
+                <div>
+                    <p id="name-song">Đừng Nói Tôi Điên</p>
+                    <p class="author" id="author">Hiền Hồ</p>
+                </div>
+            </div>
+            <div id="group-btn">
+                <div><i class="fa-solid fa-repeat"></i></div>
+                <div id="back"><i class="fa-solid fa-backward"></i></div>
+                <div id="play-pause">
+                    <span id="play"><i class="fa-solid fa-play"></i></span>
+                    <span id="pause"><i class="fa-solid fa-pause"></i></span>
+                </div>
+                <div id="next"><i class="fa-solid fa-forward"></i></div>
+                <div><i class="fa-solid fa-shuffle"></i></div>
+            </div>
+            <div id="load">
+                <span id="currentTime"></span>
+                <div id="loading">
+                    <div id="progess">
+                        <div id="circle"></div>
+                    </div>
+                </div>
+                <span id="endTime"></span>
+            </div>
+            <div id="volume"><i class="fa-solid fa-volume-high"></i></div>
+        </div>
+    </div>
+    <script src="../asset/js/music-player.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./asset/css/register.css">
+    <link rel="stylesheet" href="./asset/css/login.css">
+    <script src="./asset/js/login.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div id="left"></div>
+        <div id="right">
+            <form class="form-register right" method="post" onsubmit="return login()">
+                <p class="header-text ml-6">Login</p>
+                <div class="row">
+                    <div class="col col-full">
+                        <label for="email"><p class="label-text">Username</p></label>
+                        <input required class="form-input" type="text" name="username" id="username" placeholder="Ex: davidloky19">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-full">
+                        <label for="password"><p class="label-text">Password</p></label>
+                        <input required class="form-input" type="password" name="password" id="password" placeholder="Include length > 8, uppercase letters, numbers, characters">
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="row">
+                        <div class="col col-50">
+                            <input required class="btn" type="submit" name="" id="" value="Login">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

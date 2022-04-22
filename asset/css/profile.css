@@ -1,0 +1,124 @@
+.image {
+    background-image: linear-gradient(180deg, rgba(17, 8, 9, 0.8), rgba(255, 255, 255, 0));
+}
+
+div.cover_img {
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-details {
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.avatar-person {
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+.pd-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.pd-row div {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.pd-row div h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pd-row div p {
+    font-size: 20px;
+}
+
+.pd-row div img {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.pd-right button {
+    background: #1876f2;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pd-right button img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.hrhrhr {
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*
+.cover_img::before {
+    content: "Edit cover photo";
+    display: block;
+    width: 160px;
+    height: 40px;
+    color: #77797c;
+    background-color: white;
+    border: solid 1px black;
+}
+*/
+
+.nav-menu {
+    background-color: white;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.nav-menu-item {
+    color: #77797c;
+    margin: 5px 20px;
+    border-radius: 13px;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 7px;
+}
+
+.nav-menu-item:hover {
+    color: red;
+    background-color: #e4e6eb;
+    opacity: 0.5;
+}
+
+button.doc:hover {
+    color: black;
+    background-color: #e4e6eb;
+}

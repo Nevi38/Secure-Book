@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-family: var(--font-register);
+}
+
+:root {
+    --color-register: #1877F2;
+    --height-window: 745px;
+    --font-register: 'Segoe UI';
+    --line-height: 6px;
+    --color-white: white;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.list {
+    margin-top: 22.5px;
+}
+
+.row {
+    width: 485px;
+    margin-bottom: 6px;
+}
+
+.col {
+    float: left;
+    padding: 0 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col::after, 
+.row::after 
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.ml-6 {
+    margin-left: 6px !important;
+}
+ 
+.right {
+    float: right !important;
+}
+
+#app {
+    display: flex;
+    min-width: 1509px;
+}
+
+#left {
+    width: 698px;
+    background-color: var(--color-register);
+    height: var(--height-window);
+    position: relative;
+}
+
+#left::after {
+    content: "";
+    position: absolute;
+    top: 108px;
+    left: 316px;
+    background-image: url(../img/theme-logo-sign.png);
+    width: 471px;
+    height: 530px;
+    background-repeat: no-repeat;
+}
+
+#right {
+    width: 1222px;
+    height: var(--height-window);
+}
+
+.form-register {
+    width: 650px;
+    margin-top: 33.6px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 9px;
+}
+
+.header-text {
+    font-weight: bold;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.label-text {
+    padding-bottom: var(--line-height);
+    padding-top: calc(var(--line-height) + 8px);
+}
+
+.color-blue {
+    color: var(--color-register);
+}
+
+.btn {
+    background-color: var(--color-register);
+    border: none;
+    width: 100%;
+    padding: 14px;
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}

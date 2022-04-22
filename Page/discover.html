@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Book</title>
+    <link rel="icon" href="../asset/img/icon-website.png">
+    <link rel="stylesheet" href="../asset/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../asset/css/modal.css">
+    <link rel="stylesheet" href="../asset/css/reuse/section.css">
+    <link rel="stylesheet" href="../asset/css/discover.css">
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <div id="header__inner">
+                <a href="home.html" id="home">
+                    <img class="header__img" src="../asset/img/svg/logo-02.svg" alt="logo-header">
+                    <span class="header__title font-bold ml-15">SECURE BOOK</span>
+                </a>
+                <div id="center">
+                    <input class="header__search" type="text" placeholder="Find whatever you want...">
+                </div>
+                <div class="nav_profile">
+                    <div class="nav_profile--btn-create js-btn-create-post">
+                        <i class="fa-solid fa-square-plus"></i>
+                        <p>Create</p>
+                    </div>
+                    <a href="#"><img class="avatar" src="../asset/img/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="wrap">
+            <!-- Nav Left -->
+            <div class="nav nav__left">
+                <ul class="functions__list">
+                    <div class="functions__category">
+                        <span class="functions__title">Functions</span>
+                        <li class="function__list--item" id="profile">
+                            <img class="function__list--item-img" src="../asset/img/profile.png" alt="">
+                            <span class="ml-10">Profile</span>
+                        </li>
+                        <li class="function__list--item" id="list-friends">
+                            <img class="function__list--item-img" src="../asset/img/friends.png" alt="">
+                            <span class="ml-10">Friends</span>
+                        </li>
+                        <li class="function__list--item" id="marketplace">
+                            <img class="function__list--item-img" src="../asset/img/marketplace.png" alt="">
+                            <span class="ml-10">Marketplace</span>
+                        </li>
+                        <li class="function__list--item" id="discover">
+                            <img class="function__list--item-img" src="../asset/img/discover.png" alt="">
+                            <span class="ml-10">Discover</span>
+                        </li>
+                    </div>
+
+                    <div class="functions__category">
+                        <span class="functions__title">Entertainment</span>
+                        <li class="function__list--item" id="music">
+                            <img class="function__list--item-img" src="../asset/img/live-music.png" alt="">
+                            <span class="ml-10">Music player</span>
+                        </li>
+                    </div>
+
+                    <div class="functions__category">
+                        <span class="functions__title">Settings</span>
+                        <li class="function__list--item">
+                            <img class="function__list--item-img" src="../asset/img/settings.png" alt="">
+                            <span class="ml-10">Settings</span>
+                        </li>
+                        <li class="function__list--item">
+                            <img class="function__list--item-img" src="../asset/img/customer-service.png" alt="">
+                            <span class="ml-10">Support</span>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <!--Discover-->
+            <div class="discover">
+                <div class="discover-container">
+                    <div class="discover-header">
+                        <div class="discover-left">
+                            <h3>Suggested for you</h3>
+                            <p>Groups you might be interested in.</p>
+                        </div>
+                        <div class="discover-right">
+                            <span>See all</span>
+                        </div>
+                    </div>
+
+                    <div class="discover-list">
+                        <i class="fa fa-angle-left slider-prev"></i>
+                        <div class="discover-wrap">
+                            <div class="discover-list-main">
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/BD.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Tôi là dân Bình Dương</a>
+                                            <p>65,0K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Bánh.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Học Viện Bếp Bánh</a>
+                                            <p>717,7K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Canva.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Canva - Thiết Kế Dễ Như Chơi</a>
+                                            <p>345,6K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Python.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Lập Trình Python</a>
+                                            <p>136,6K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Lữ hành.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Những Kẻ Lữ Hành</a>
+                                            <p>1,2M thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Blockchain.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">TẤT TẦN TẬT VỀ BLOCKCHAIN</a>
+                                            <p>858 thành viên ~ 5 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/CLB_SV_5T.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">CLB Sinh Viên 5 Tốt - TDMU</a>
+                                            <p>5,4K thành viên ~ 2 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Đọc_Sách.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Cộng Đồng Đọc Sách Việt Nam</a>
+                                            <p>116,4K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/DatAi@SG.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">DatAi@SG</a>
+                                            <p>3,3K thành viên ~ 5 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Guitar.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">TỰ HỌC GUITAR - PIANO VÀ UKULELE</a>
+                                            <p>370,8K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa fa-angle-right slider-next"></i>
+                    </div> 
+                    <div class="hrhrhr">
+                        <hr style="width: 920px; margin: 20 auto;">
+                    </div>                   
+                </div>
+
+                <div class="discover-container">
+                    <div class="discover-header">
+                        <div class="discover-left">
+                            <h3>Friends' groups</h3>
+                            <p>Groups your friends are in.</p>
+                        </div>
+                        <div class="discover-right">
+                            <span>See all</span>
+                        </div>
+                    </div>
+
+                    <div class="discover-list">
+                        <i class="fa fa-angle-left slider-prev"></i>
+                        <div class="discover-wrap">
+                            <div class="discover-list-main">
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Tuna.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Monsieur Tuna Và Băng Cướp Cầu Vồng</a>
+                                            <p>256,1K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/TDMU_IT_CLUB.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">TDMU IT CLUB</a>
+                                            <p>1,1K thành viên ~ 5 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Python.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Lập Trình Python</a>
+                                            <p>136,6K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Blockchain.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">TẤT TẦN TẬT VỀ BLOCKCHAIN</a>
+                                            <p>858 thành viên ~ 5 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/GenZ.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Tâm Sự GEN Z</a>
+                                            <p>180,0K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/ĐH.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Đại Học Đừng Học Đại</a>
+                                            <p>694,7K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Đọc_Sách.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Cộng Đồng Đọc Sách Việt Nam</a>
+                                            <p>116,4K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/DatAi@SG.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">DatAi@SG</a>
+                                            <p>3,3K thành viên ~ 5 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Canva.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Canva - Thiết Kế Dễ Như Chơi</a>
+                                            <p>345,6K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Guitar.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">TỰ HỌC GUITAR - PIANO VÀ UKULELE</a>
+                                            <p>370,8K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa fa-angle-right slider-next"></i>
+                    </div> 
+                    <div class="hrhrhr">
+                        <hr style="width: 920px; margin: 20 auto;">
+                    </div>                   
+                </div>
+
+                <div class="discover-container">
+                    <div class="discover-header">
+                        <div class="discover-left">
+                            <h3>Popular near you</h3>
+                            <p>Groups people in your area are in.</p>
+                        </div>
+                        <div class="discover-right">
+                            <span>See all</span>
+                        </div>
+                    </div>
+
+                    <div class="discover-list">
+                        <i class="fa fa-angle-left slider-prev"></i>
+                        <div class="discover-wrap">
+                            <div class="discover-list-main">
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Dậy_đi.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Dậy Đi Làm Đi</a>
+                                            <p>151,0K thành viên ~ 2 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Đi_làm.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Đi Làm Đừng Đi Lầm</a>
+                                            <p>130,0K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Study_with_me.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Study With Me (ง •̀ω•́)ง✧</a>
+                                            <p>54,2K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Front-end.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Cộng Đồng Front-End Cơ Bản (HTML, CSS, JavaScript)</a>
+                                            <p>25,1K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Lữ hành.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Những Kẻ Lữ Hành</a>
+                                            <p>1,2M thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/UI-UX.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Cộng đồng UI/UX Design VietNam</a>
+                                            <p>96,4K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Notion.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Notion Việt Nam</a>
+                                            <p>203,5K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Toeic.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href=""> Tự Học TOEIC Mỗi Ngày</a>
+                                            <p>273,1K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/ReactJS.jpg" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">ReactJS - Việt Nam</a>
+                                            <p>63,1K thành viên ~ 5 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-list-item">
+                                    <div class="discover-item">
+                                        <img src="../asset/img/discover/Review.png" alt="">
+                                        <div class="discover-item-content">
+                                            <a href="">Thích gì - Rìviu đó</a>
+                                            <p>47,4K thành viên ~ Hơn 10 bài viết/ngày</p>
+                                        </div>
+                                        <div class="join-in-group">
+                                            <div class="join-in-gr">
+                                                Tham gia nhóm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa fa-angle-right slider-next"></i>
+                    </div> 
+                    <div class="hrhrhr">
+                        <hr style="width: 920px; margin: 20 auto;">
+                    </div>                   
+                </div>
+            </div>
+        </div>
+
+        <div class="create-post" id="js-create-post">
+            <div class="create-post__container">
+                <div class="create-post__container--header">
+                    <div class="create-post__container--header-title">Create Post</div>
+                    <span class="modal__header-close right-22" id="js-close-create-post"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="create-post__container--body">
+                    <div class="box__info">
+                        <img class="avatar" src="../asset/img/user.png" alt="">
+                        <div class="upload__textbox--info">
+                            <p class="box__info--name">Trương Bồ Quốc Thắng</p>
+                            <div class="mod__privacy mode__privacy--public"><i class="fa-solid fa-earth-americas"></i><span class="mod__privacy--title">Công khai</span></div>
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <div class="box__content--area">
+                            <textarea class="box__content--story" id="story" type="text" placeholder="What's on your mind, Quốc Thắng?"></textarea>
+                            <div class="box__content-img" id="area-image">
+                                <img class="upload__content--image" id="idDisplay" src="" alt="">
+                                <span class="modal__header-close corner-top-right hidden" id="close"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="box__content--add-btn">
+                            <div class="box__content--title">Thêm vào bài viết</div>
+                            <div class="emotion">
+                                <div class="emotion__icon emotion__icon--type-img">
+                                    <input type="file" class="input-upload" id="image">
+                                    <label for="image"><i class="fa-solid fa-image"></i></label>
+                                </div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                        <div class="btn btn-pink btn-medium" id="create-post">Post</div>
+                    </div>
+                </div>
+                <div class="create-post__container--footer"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../asset/js/discover-slider.js"></script>
+    <script src="../asset/js/navigation.js"></script>
+</body>
+</html>

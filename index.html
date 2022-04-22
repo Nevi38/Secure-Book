@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Book</title>
+    <link rel="icon" href="./asset/img/icon-website.png">
+    <link rel="stylesheet" href="./asset/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/modal.css">
+    <link rel="stylesheet" href="./asset/css/reuse/section.css">
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <div id="header__inner">
+                <a href="home.html" id="home">
+                    <img class="header__img" src="./asset/img/svg/logo-02.svg" alt="logo-header">
+                    <span class="header__title font-bold ml-15">SECURE BOOK</span>
+                </a>
+                <div id="center">
+                    <input class="header__search" type="text" placeholder="Find whatever you want...">
+                </div>
+                <div class="nav_profile">
+                    <div class="nav_profile--btn-create js-btn-create-post">
+                        <i class="fa-solid fa-square-plus"></i>
+                        <p>Create</p>
+                    </div>
+                    <a href="#"><img class="avatar" src="./asset/img/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="wrap">
+            <!-- Nav Left -->
+            <div class="nav nav__left">
+                <ul class="functions__list">
+                    <div class="functions__category">
+                        <span class="functions__title">Functions</span>
+                        <li class="function__list--item" id="profile">
+                            <img class="function__list--item-img" src="./asset/img/profile.png" alt="">
+                            <span class="ml-10">Profile</span>
+                        </li>
+                        <li class="function__list--item" id="list-friends">
+                            <img class="function__list--item-img" src="./asset/img/friends.png" alt="">
+                            <span class="ml-10">Friends</span>
+                        </li>
+                        <li class="function__list--item" id="marketplace">
+                            <img class="function__list--item-img" src="./asset/img/marketplace.png" alt="">
+                            <span class="ml-10">Marketplace</span>
+                        </li>
+                        <li class="function__list--item" id="discover">
+                            <img class="function__list--item-img" src="./asset/img/discover.png" alt="">
+                            <span class="ml-10">Discover</span>
+                        </li>
+                    </div>
+
+                    <div class="functions__category">
+                        <span class="functions__title">Entertainment</span>
+                        <li class="function__list--item" id="music">
+                            <img class="function__list--item-img" src="./asset/img/live-music.png" alt="">
+                            <span class="ml-10">Music player</span>
+                        </li>
+                    </div>
+
+                    <div class="functions__category">
+                        <span class="functions__title">Settings</span>
+                        <li class="function__list--item">
+                            <img class="function__list--item-img" src="./asset/img/settings.png" alt="">
+                            <span class="ml-10">Settings</span>
+                        </li>
+                        <li class="function__list--item">
+                            <img class="function__list--item-img" src="./asset/img/customer-service.png" alt="">
+                            <span class="ml-10">Support</span>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <!-- Content Social-->
+            <div class="content">
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/user.png" alt="">
+                        <div class="text__type--comment-input placeholder js-btn-create-post" id="data-story">What's on your mind, Quốc Thắng?</div>
+                    </div>
+                    <div class="upload__function">
+                        <ul class="upload__function--list">
+                            <li class="upload__function--list-item">
+                                <i class="fa-solid fa-video red"></i>
+                                <span>Live video</span>
+                            </li>
+                            <li class="upload__function--list-item">
+                                <i class="fa-solid fa-image green"></i>
+                                <span>Photo/Video</span>
+                            </li>
+                            <li class="upload__function--list-item">
+                                <i class="fa-solid fa-face-laugh-beam tomato"></i>
+                                <span>Feeling/Activity</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="upload__btn">
+                        <div class="btn btn-pink js-btn-create-post" id="post">Post</div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/contact/huongluli.jpg" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Nguyễn Thị Cẩm Hường</p>
+                            <span class="upload__textbox--sub">Now · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            Sợ lắm khi yêu một ai quá nhiều<br>
+                            Mình chẳng nhận ra những điều <br>
+                            Mà đôi khi con tim quá yêu nên làm mờ đi lý trí
+                        </div>
+                        <div class="layout-pic">
+                            <img class="upload__content--image" src="./asset/img/luli.jpg" id="" alt="">
+                            <img class="upload__content--image" src="./asset/img/luli.jpg" id="" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/user.png" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Trương Bồ Quốc Thắng</p>
+                            <span class="upload__textbox--sub">23 February at 15:00 · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            Sợ lắm khi yêu một ai quá nhiều<br>
+                            Mình chẳng nhận ra những điều <br>
+                            Mà đôi khi con tim quá yêu nên làm mờ đi lý trí
+                        </div>
+                        <img class="upload__content--image" src="./asset/img/quote2.jpg" id="" alt="">
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/contact/erik.jpg" alt="">
+                        <div class="upload__textbox--wrap">
+                            <p>Erik</p>
+                            <span class="upload__textbox--sub">13 April at 23:00 · <i class="fa-solid fa-lock"></i></span>
+                        </div>
+                        <div class="upload__textbox--list">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                
+                    <div class="upload__content">
+                        <div class="upload__content--mess">                         
+                            Anh chẳng biết làm gì <br>
+                            Vì càng bước tới em càng đi <br>
+                            Anh vô ý hay em cần anh nói ra những gì
+                        </div>
+                        <img class="upload__content--image" src="./asset/img/quote2.jpg" id="" alt="">
+                    </div>
+                    
+                    <div class="upload__emotion">
+                        <div class="upload__emotion--list upload__emotion--heart js-love"><span class="mr-5 count"></span><i class="fa-solid fa-heart"></i><span style="margin-left: 5px;">Love</span></div>
+                        <div class="upload__emotion--list upload__emotion--heart"><i class="fa-solid fa-comment"></i><span style="margin-left: 5px;">Comment</span></div>
+                    </div>
+                    
+                    <div class="upload__textbox">
+                        <img class="avatar" src="./asset/img/user.png" alt="">
+                        <div class="text__type--comment">
+                            <input class="text__type--comment-input" type="text" placeholder="Write a comment...">
+                            <div class="text__type--comment--emotion">
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- Nav Right -->
+            <div class="nav nav__right">
+                <ul class="functions__list">
+                    <div class="functions__category">
+                        <span class="functions__title">Contacts</span>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/huongluli.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Nguyễn Thị Cẩm Hường</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/erik.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Erik</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/ducphuc.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Đức Phúc</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/buianhtuan.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Bùi Anh Tuấn</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/giatuyen.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Gia Tuyền</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/khoiminh.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Nguyễn Minh Khôi</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/hacker.png" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Anh Trợ lý</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/man.png" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Anh Hai</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/woman.png" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Chị Ba</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/leeminhhoo.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Anh Quản Gia</span>
+                        </li>
+                        <li class="function__list--item">
+                            <div class="avatar-online">
+                                <img class="avatar" src="./asset/img/contact/cutegirl.jpg" alt="">
+                                <img class="status-online" src="./asset/img/online.png" alt="">
+                            </div>
+                            <span class="ml-10">Chị Tư</span>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="create-post" id="js-create-post">
+            <div class="create-post__container">
+                <div class="create-post__container--header">
+                    <div class="create-post__container--header-title">Create Post</div>
+                    <span class="modal__header-close right-22" id="js-close-create-post"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="create-post__container--body">
+                    <div class="box__info">
+                        <img class="avatar" src="./asset/img/user.png" alt="">
+                        <div class="upload__textbox--info">
+                            <p class="box__info--name">Trương Bồ Quốc Thắng</p>
+                            <div class="mod__privacy mode__privacy--public"><i class="fa-solid fa-earth-americas"></i><span class="mod__privacy--title">Công khai</span></div>
+                        </div>
+                    </div>
+                    <div class="box__content">
+                        <div class="box__content--area">
+                            <textarea class="box__content--story" id="story" type="text" placeholder="What's on your mind, Quốc Thắng?"></textarea>
+                            <div class="box__content-img" id="area-image">
+                                <img class="upload__content--image" id="idDisplay" src="" alt="">
+                                <span class="modal__header-close corner-top-right hidden" id="close"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="box__content--add-btn">
+                            <div class="box__content--title">Thêm vào bài viết</div>
+                            <div class="emotion">
+                                <div class="emotion__icon emotion__icon--type-img">
+                                    <input type="file" class="input-upload" id="image">
+                                    <label for="image"><i class="fa-solid fa-image"></i></label>
+                                </div>
+                                <div class="emotion__icon emotion__icon--type-feel"><i class="fa-solid fa-face-laugh-wink"></i></div>
+                                <div class="emotion__icon emotion__icon--type-map"><i class="fa-solid fa-map-location-dot"></i></div>
+                                <div class="emotion__icon emotion__icon--type-more"><i class="fa-solid fa-ellipsis"></i></div>
+                            </div>
+                        </div>
+                        <div class="btn btn-pink btn-medium" id="create-post">Post</div>
+                    </div>
+                </div>
+                <div class="create-post__container--footer"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./asset/js/home.js"></script>
+</body>
+</html>

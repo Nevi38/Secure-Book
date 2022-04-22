@@ -1,0 +1,133 @@
+.discover {
+    width: 920px;
+    margin: 82px 60px 33px 460px;
+}
+
+.discover-container {
+    position: relative;
+    margin: auto;
+}
+
+.discover-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.discover-right {
+    color: #1876f2;
+}
+
+.discover-list {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.discover-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+
+.discover-list-main {
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    transition: transform 0.25s linear;
+}
+
+.discover-item {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.discover-item img {
+    width: 450px;
+    height: 300px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.discover-list-item + .discover-list-item {
+    margin-left: 16px;
+}
+
+.discover-item-content {
+    width: 450px;
+    padding: 15px 24px;
+    padding-bottom: 30px;
+}
+
+.discover-item-content a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+
+.discover-item-content p {
+    font-size: 15px;
+    max-width: 400px;
+}
+
+.join-in-group {
+    width: 350px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+
+.join-in-gr{
+    background-color: #e4e6eb;
+    border-radius: 10px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 12px 100px;
+    cursor: pointer;
+    align-content: center;
+}
+
+.join-in-gr:hover {
+    background-color: rgba(153, 153, 153, 0.5);
+}
+
+.slider-next,
+.slider-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 100rem;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.discover-list .fa {
+    display: flex;
+}
+
+.slider-next {
+  right: -25px;
+}
+.slider-prev {
+  left: -25px;
+}
+
+.discover-list + .hrhrhr {
+    margin-top: 40px;
+    margin-bottom: 26px;
+}
+
+
+
+

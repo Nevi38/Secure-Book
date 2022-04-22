@@ -1,0 +1,44 @@
+#footer ul {
+    display: flex;
+}
+
+#footer ul li {
+    list-style-type: none;
+    margin-right: 14px;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer ul li:hover {
+    opacity: 1;
+}
+
+#footer .no-select p {
+    text-align: center;
+    margin-top: 10px;
+    max-width: 300px;
+    opacity: 0.5;
+}
+
+#footer .logo {
+    color: white;
+}
+
+.no-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}

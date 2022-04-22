@@ -1,0 +1,86 @@
+/* Menu */
+.function__list--item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 9px ;
+}
+
+/* Button */
+.btn {
+    padding: 11px 70px;
+    margin-bottom: 10px;
+    border-radius: 10px;  
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation: zoom ease .8s forwards;
+}
+
+.btn-pink {
+    color: white;
+    background-color: rgb(255, 0, 43);
+}
+
+/* Emotion */
+.emotion {
+    display: flex;
+}
+
+.emotion__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.emotion__icon--type-img {
+    position: relative;
+    color: #45BD62;
+}
+
+.emotion__icon:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.emotion__icon:hover,
+.emotion__icon label {
+    cursor: pointer;
+}
+
+.emotion__icon--type-feel {
+    color: #F7B928;
+}
+
+.emotion__icon--type-map {
+    color: #F5533D;
+}
+
+/* Icon Upload */
+.input-upload {
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+}
+
+/* Other */
+.placeholder {
+    color: #65676B;
+}
+
+/* Animation */
+@keyframes zoom {
+    to {
+        transform: scale(1.07);
+    }
+}

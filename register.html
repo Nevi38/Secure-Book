@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./asset/css/register.css">
+</head>
+<body>
+    <div id="app">
+        <div id="left"></div>
+        <div id="right">
+            <form class="form-register right" method="post" onsubmit="return register()">
+                <p class="header-text ml-6">Register</p>
+                <div class="row">
+                    <div class="col col-50">
+                        <label for="first-name"><p class="label-text">First Name</p></label>
+                        <input required class="form-input" type="text" name="first-name" id="first-name" placeholder="Ex: Smith">
+                    </div>
+                    <div class="col col-50">
+                        <label for="last-name"><p class="label-text">Last Name</p></label>
+                        <input required class="form-input" type="text" name="last-name" id="last-name" placeholder="Ex: John Adie">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-full">
+                        <label for="phone"><p class="label-text">Phone Number</p></label>
+                        <input required class="form-input" type="tel" name="phone" id="phone" placeholder="Ex: +84 924061522">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-full">
+                        <label for="email"><p class="label-text">Email</p></label>
+                        <input required class="form-input" type="email" name="email" id="email" placeholder="Ex: 2124801030076@student.tdmu.edu.vn">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-full">
+                        <label for="password"><p class="label-text">Password</p></label>
+                        <input required class="form-input" type="password" name="password" id="password" placeholder="Include length > 8, uppercase letters, numbers, characters">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-full">
+                        <label for="re-password"><p class="label-text">Confirm Password</p></label>
+                        <input required class="form-input" type="password" name="re-password" id="re-password" placeholder="Please Confirm Password">
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="row">
+                        <div class="col col-full">
+                            <input required class="cursor-pointer" type="checkbox" name="agree-01" id="agree-01">
+                            <label for="agree-01">Yes, I want to receive Lottery Display emails</label>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col col-full">
+                            <input required class="cursor-pointer" type="checkbox" name="agree-02" id="agree-02">
+                            <label for="agree-02">I agree to all the <a href="#" class="color-blue">Term</a>, <a href="#" class="color-blue">Privacy Policy</a> and <a href="#" class="color-blue">Fees</a></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="row">
+                        <div class="col col-50">
+                            <input required class="btn" type="submit" name="" id="" value="Create Account">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="row">
+                        <div class="col col-50">
+                            <p>Already have an account? <a class="color-blue bold" href="#">Login</a></p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./asset/js/register.js"></script>
+</body>
+</html>
