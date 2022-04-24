@@ -204,7 +204,7 @@ function readURL(input) {
             $('#idDisplay').attr('src', e.target.result);
             SRC_IMAGE = e.target.result;
         }
-        reader.readAsDataURL([input.files0]);
+        reader.readAsDataURL(input.files[0]);
     }
 }
 
