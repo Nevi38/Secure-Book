@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./asset/css/modal.css">
     <link rel="stylesheet" href="./asset/css/reuse/section.css">
+    <link rel="stylesheet" href="./asset/css/responsive-index.css">
 </head>
 <body>
     <div id="app">
         <div id="header">
             <div id="header__inner">
-                <a href="home.html" id="home">
+                <a href="#" id="home">
                     <img class="header__img" src="./asset/img/svg/logo-02.svg" alt="logo-header">
                     <span class="header__title font-bold ml-15">SECURE BOOK</span>
                 </a>
@@ -80,7 +81,7 @@
 
             <!-- Content Social-->
             <div class="content">
-                <div class="upload">
+                <div class="upload" id="responsive-upload">
                     <div class="upload__textbox">
                         <img class="avatar" src="./asset/img/user.png" alt="">
                         <div class="text__type--comment-input placeholder js-btn-create-post" id="data-story">What's on your mind, Quốc Thắng?</div>
@@ -89,7 +90,7 @@
                         <ul class="upload__function--list">
                             <li class="upload__function--list-item">
                                 <i class="fa-solid fa-video red"></i>
-                                <span>Live video</span>
+                                <span>Video</span>
                             </li>
                             <li class="upload__function--list-item">
                                 <i class="fa-solid fa-image green"></i>
@@ -105,6 +106,49 @@
                         <div class="btn btn-pink js-btn-create-post" id="post">Post</div>
                     </div>
                 </div>
+
+                <!-- List Menu -->
+                <div class="upload" id="list-menu">
+                    <div class="functions__category">
+                        <span class="functions__title">Functions</span>
+                        <li class="function__list--item" id="profile">
+                            <img class="function__list--item-img" src="./asset/img/profile.png" alt="">
+                            <span class="ml-10">Profile</span>
+                        </li>
+                        <li class="function__list--item" id="list-friends">
+                            <img class="function__list--item-img" src="./asset/img/friends.png" alt="">
+                            <span class="ml-10">Friends</span>
+                        </li>
+                        <li class="function__list--item" id="marketplace">
+                            <img class="function__list--item-img" src="./asset/img/marketplace.png" alt="">
+                            <span class="ml-10">Marketplace</span>
+                        </li>
+                        <li class="function__list--item" id="discover">
+                            <img class="function__list--item-img" src="./asset/img/discover.png" alt="">
+                            <span class="ml-10">Discover</span>
+                        </li>
+                    </div>
+                    <div class="functions__category">
+                        <span class="functions__title">Functions</span>
+                        <li class="function__list--item" id="profile">
+                            <img class="function__list--item-img" src="./asset/img/profile.png" alt="">
+                            <span class="ml-10">Profile</span>
+                        </li>
+                        <li class="function__list--item" id="list-friends">
+                            <img class="function__list--item-img" src="./asset/img/friends.png" alt="">
+                            <span class="ml-10">Friends</span>
+                        </li>
+                        <li class="function__list--item" id="marketplace">
+                            <img class="function__list--item-img" src="./asset/img/marketplace.png" alt="">
+                            <span class="ml-10">Marketplace</span>
+                        </li>
+                        <li class="function__list--item" id="discover">
+                            <img class="function__list--item-img" src="./asset/img/discover.png" alt="">
+                            <span class="ml-10">Discover</span>
+                        </li>
+                    </div>
+                </div>
+
                 <div class="upload">
                     <div class="upload__textbox">
                         <img class="avatar" src="./asset/img/contact/huongluli.jpg" alt="">
@@ -200,11 +244,12 @@
                 
                     <div class="upload__content">
                         <div class="upload__content--mess">                         
-                            Anh chẳng biết làm gì <br>
-                            Vì càng bước tới em càng đi <br>
-                            Anh vô ý hay em cần anh nói ra những gì
+                            Bản nhạc trở thành kỉ niệm duy nhất về nhau <br>
+                            Còn đâu của người khác không phải em <br>
+                            Một người trước kia anh từng yêu <br>
+                            Yêu cô ta còn nhiều hơn cả em
                         </div>
-                        <img class="upload__content--image" src="./asset/img/quote2.jpg" id="" alt="">
+                        <img class="upload__content--image" src="./asset/img/album-01.jpg" id="" alt="">
                     </div>
                     
                     <div class="upload__emotion">

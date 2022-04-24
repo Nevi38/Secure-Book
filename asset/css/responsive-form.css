@@ -1,0 +1,36 @@
+/* Smart Phone */
+@media screen and (max-width: 767px) {
+    #app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: unset;
+        padding: 20px;
+    }
+
+    #right {
+        width: auto;
+    }
+
+    #left {
+        display: none;
+    }
+
+    .form-register {
+        width: auto;
+    }
+
+    .row {
+        width: auto;
+        display: flex;
+    }
+
+    .col {
+        float: none;
+    }
+
+    .form-register {
+        margin-top: 0;
+        width: 297px;
+    }
+}

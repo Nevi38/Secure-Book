@@ -1,0 +1,57 @@
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+/* Smart Phone */
+@media screen and (max-width: 767px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    #responsive-upload {
+
+    }
+
+    .upload__function--list {
+        display: flex;
+    }
+
+    .upload__function--list-item {
+        padding: 10px;
+    }
+
+    .content {
+        margin-top: 66px;
+    }
+
+    #center {
+        display: none;
+    }
+
+    #header__inner {
+        margin: 0 19px;
+    }
+
+    .upload__emotion--list {
+        width: 152.6px;
+    }
+
+    .create-post {
+        top: 59px;
+        background-color: transparent;
+    }
+
+    .functions__category {
+        margin-top: 15px;
+    }
+
+    #list-menu {
+        display: block;
+    }
+}
+

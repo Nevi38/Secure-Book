@@ -10,7 +10,7 @@ const MUSIC = document.getElementById('music');
 const DISCOVER = document.getElementById('discover');
 const LIST_FRIEND = document.getElementById('list-friends');
 const PROFILE = document.getElementById('profile');
-
+const LIST_MENU = document.getElementById('list-menu');
 var idDisplay = document.getElementById('idDisplay');
 var SRC_IMAGE = "";
 var count = 0;
@@ -204,6 +204,12 @@ function readURL(input) {
             $('#idDisplay').attr('src', e.target.result);
             SRC_IMAGE = e.target.result;
         }
-        reader.readAsDataURL(input.files[0]);
+        reader.readAsDataURL([input.files0]);
     }
 }
+
+LIST_MENU.addEventListener('click', () => {
+    LIST_MENU.classList.add('no-after', 'no-before');
+    LIST_MENU.style.height = '598.8px';
+});
+
